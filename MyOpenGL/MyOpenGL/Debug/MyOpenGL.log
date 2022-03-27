@@ -1,0 +1,77 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MYOPENGL2.vcxproj, MYOPENGLW.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(99,53): warning C4244:  “参数”: 从“GLfloat”转换到“int”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(99,40): warning C4244:  “参数”: 从“GLfloat”转换到“int”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(116,32): warning C4244:  “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(116,19): warning C4244:  “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(166,123): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(166,68): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(223,24): warning C4244:  “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(257,11): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(258,11): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(261,18): warning C4244:  “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(262,18): warning C4244:  “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(263,10): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(264,10): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+F:\OPENGL\MyOpenGL\MyOpenGL\main.cpp(269,28): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glewInit@0，该符号在函数 _main 中被引用
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewActiveTexture
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewActiveTexture
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewActiveTexture
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBuffer
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBuffer
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBuffer
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBufferData
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewBufferData
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBufferData
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenBuffers
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenBuffers
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenBuffers
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewEnableVertexAttribArray
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewEnableVertexAttribArray
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetUniformLocation
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetUniformLocation
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniform1f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniform1f
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniform3f
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniform3f
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniformMatrix4fv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniformMatrix4fv
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewVertexAttribPointer
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewVertexAttribPointer
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewVertexAttribPointer
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenerateMipmap
+Model.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenerateMipmap
+Texture.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenerateMipmap
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindVertexArray
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindVertexArray
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindVertexArray
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenVertexArrays
+Mesh.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenVertexArrays
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenVertexArrays
+main.obj : error LNK2001: 无法解析的外部符号 __imp__glewExperimental
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewDisableVertexAttribArray
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewUseProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewUseProgram
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBeginTransformFeedback
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewEndTransformFeedback
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindTransformFeedback
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewDrawTransformFeedback
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenTransformFeedbacks
+Particle.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBufferBase
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewAttachShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewCompileShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewCreateProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewCreateShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewDeleteShader
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetProgramInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetProgramiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetShaderInfoLog
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetShaderiv
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewLinkProgram
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewShaderSource
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewUniform1i
+Shader.obj : error LNK2001: 无法解析的外部符号 __imp____glewTransformFeedbackVaryings
+F:\OPENGL\MyOpenGL\Debug\MyOpenGL.exe : fatal error LNK1120: 36 个无法解析的外部命令
